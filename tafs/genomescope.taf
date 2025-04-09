@@ -1,0 +1,9 @@
++TOOL:genomescope
+ARGS
+    <else>
+        genomescope
+    <main>
+        genomescope ::*APP-ARGS*::
+RUN
+    <container:taf-genomescope-v0.0.0:ghcr.io/taffish-org/genomescope:0.0.0>
+        ::*MAIN*::

@@ -1,0 +1,2 @@
+# <genomescope:0.0.0 | KaiyuanHan | 2025-04-09>
+USAGE: genomescope.R histogram_file k-mer_length read_length output_dir [kmer_max] [verbose]
