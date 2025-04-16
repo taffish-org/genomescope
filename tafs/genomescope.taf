@@ -5,5 +5,5 @@ ARGS
     <main>
         genomescope ::*APP-ARGS*::
 RUN
-    <container:taf-genomescope-v0.0.0:ghcr.io/taffish-org/genomescope:0.0.0>
+    <container:taf-genomescope-v2.0.1:ghcr.io/taffish-org/genomescope:2.0.1>
         ::*MAIN*::

@@ -1,8 +1,8 @@
 (:name           "genomescope")
 (:repo           "taffish-org/genomescope")
 (:author         "KaiyuanHan")
-(:version        "0.0.0")
-(:intro          "Fast genome analysis from unassembled short reads")
+(:version        "2.0.1")
+(:intro          "Reference-free profiling of polyploid genomes")
 (:dependencies)
 (:functions      "[R :: 4.4.3]"
                  "genomescope")

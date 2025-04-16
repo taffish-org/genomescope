@@ -1,2 +1,17 @@
-# <genomescope:0.0.0 | KaiyuanHan | 2025-04-09>
-USAGE: genomescope.R histogram_file k-mer_length read_length output_dir [kmer_max] [verbose]
+# <genomescope:2.0.1 | KaiyuanHan | 2025-04-16>
+USAGE:
+    taf-genomescope genomescope -i input_histogram_file -o output_dir -p ploidy -k kmer_length
+OPTIONAL PARAMETERS:
+    -n 'name_prefix' 
+    -l lambda 
+    -m max_kmercov 
+    --verbose 
+    --no_unique_sequence
+ADVANCED PARAMETERS:
+    -t topology 
+    --initial_repetitiveness init_d 
+    --initial_heterozygosities init_r1,init_r2,...,init_rx 
+    --transform_exp t_exp 
+    --testing --true_params --trace_flag --num_rounds --fitted_hist
+HELP:
+    taf-genomescope -h/--help
